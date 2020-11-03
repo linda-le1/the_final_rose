@@ -1,0 +1,4 @@
+<% @contestants.each do |c| %>
+Name: <%= c.name %></br>
+<%= link_to "See Contestant Info", contestant_path(c.id) %>
+<% end %>
