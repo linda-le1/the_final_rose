@@ -1,0 +1,5 @@
+Name: <%= @bachelorette.name %>
+Season Number: <%= @bachelorette.season_number %>
+Description: <%= @bachelorette.season_description %>
+
+<%= link_to "See All Contestants", bachelorette_contestants_path(@bachelorette.id) %>
